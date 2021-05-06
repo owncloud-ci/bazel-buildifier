@@ -1,4 +1,4 @@
-# Go on Alpine for ownCloud CI
+# Bazel Buildifier for ownCloud CI
 
 [![Build Status](https://img.shields.io/drone/build/owncloud-ci/bazel-buildifier?logo=drone&server=https%3A%2F%2Fdrone.owncloud.com)](https://drone.owncloud.com/owncloud-ci/bazel-buildifier)
 [![Docker Hub](https://img.shields.io/docker/v/owncloudci/bazel-buildifier?logo=docker&label=dockerhub&sort=semver&logoColor=white)](https://hub.docker.com/r/owncloudci/bazel-buildifier)
