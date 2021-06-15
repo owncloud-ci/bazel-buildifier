@@ -4,7 +4,7 @@
 [![Docker Hub](https://img.shields.io/docker/v/owncloudci/bazel-buildifier?logo=docker&label=dockerhub&sort=semver&logoColor=white)](https://hub.docker.com/r/owncloudci/bazel-buildifier)
 [![GitHub contributors](https://img.shields.io/github/contributors/owncloud-ci/bazel-buildifier)](https://github.com/owncloud-ci/bazel-buildifier/graphs/contributors)
 [![Source: GitHub](https://img.shields.io/badge/source-github-blue.svg?logo=github&logoColor=white)](https://github.com/owncloud-ci/bazel-buildifier)
-[![License: MIT](https://img.shields.io/github/license/owncloud-ci/bazel-buildifier)](https://github.com/owncloud-ci/bazel-buildifier/blob/master/LICENSE)
+[![License: MIT](https://img.shields.io/github/license/owncloud-ci/bazel-buildifier)](https://github.com/owncloud-ci/bazel-buildifier/blob/main/LICENSE)
 
 ownCloud CI Bazel Buildifier for Starlark linting and formatting
 
@@ -18,7 +18,7 @@ ownCloud CI Bazel Buildifier for Starlark linting and formatting
 
 ## Docker Tags and respective Dockerfile links
 
-- [`latest`](https://github.com/owncloud-ci/bazel-buildifier/blob/master/latest/Dockerfile.amd64) available as `owncloudci/bazel-buildifier:latest`
+- [`latest`](https://github.com/owncloud-ci/bazel-buildifier/blob/main/latest/Dockerfile.amd64) available as `owncloudci/bazel-buildifier:latest`
 
 ## Default volumes
 
@@ -34,7 +34,7 @@ None
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/owncloud-ci/bazel-buildifier/blob/master/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/owncloud-ci/bazel-buildifier/blob/main/LICENSE) file for details.
 
 ## Copyright
 
