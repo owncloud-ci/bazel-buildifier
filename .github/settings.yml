@@ -1,7 +1,7 @@
 ---
 repository:
   name: bazel-buildifier
-  description: Bazel buildifier for ownCloud CI
+  description: Bazel buildifier for ownCloud CI test
   topics: docker, bazel, buildifier, starlark
 
   private: false
