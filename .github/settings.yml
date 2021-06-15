@@ -52,14 +52,8 @@ teams:
 branches:
   - name: main
     protection:
-      required_pull_request_reviews: null
       required_status_checks:
         strict: false
         contexts:
           - continuous-integration/drone/pr
       enforce_admins: false
-      restrictions:
-        apps:
-          - renovate
-        teams:
-          - bot
