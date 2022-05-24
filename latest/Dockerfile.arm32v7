@@ -1,8 +1,8 @@
-FROM arm32v7/golang:alpine@sha256:10a3041584437f981c63117e983505c800f4a1aa6c83f245b072a99d1bab2e3d as build
+FROM arm32v7/golang:alpine@sha256:a1f7892284636a97476f7683b33df2a8b5f7c2e6387d397560ee76da2ca046f0 as build
 
 RUN go install github.com/bazelbuild/buildtools/buildifier@4.0.1
 
-FROM owncloudci/alpine:arm32v7@sha256:7382957d7ab89ef666501bbf532bcda09f95438afa1dcaef8729808740035dd7
+FROM owncloudci/alpine:arm32v7@sha256:a189d53a4f74edeb0612ac1e351b4b51d4d4d7af8b276eb102f16574fa3f6fd3
 
 LABEL maintainer="ownCloud GmbH <devops@owncloud.com>" \
   org.opencontainers.image.title="ownCloud CI Bazel Buildifier" \
