@@ -1,4 +1,4 @@
-FROM arm64v8/golang:alpine@sha256:86cfea5046e196f5061324c93f25ef05e1df58ba96721e0c0b42cc6e0cf22e49 as build
+FROM arm64v8/golang:alpine@sha256:e999c99cd26d6b6e15a5e9bbec59f6661af5ddfc931d70498ea05d20b4150fff as build
 
 RUN go install github.com/bazelbuild/buildtools/buildifier@4.0.1
 
