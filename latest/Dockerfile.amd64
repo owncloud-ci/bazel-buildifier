@@ -1,6 +1,9 @@
 FROM golang:alpine@sha256:a9b24b67dc83b3383d22a14941c2b2b2ca6a103d805cac6820fd1355943beaf1 as build
 
-RUN go install github.com/bazelbuild/buildtools/buildifier@5.1.0
+# renovate: datasource=github-releases depName=bazelbuild/buildtools
+ENV BUILDIFIER_VERSION="${BUILD_VERSION:-5.1.0}"
+
+RUN go install github.com/bazelbuild/buildtools/buildifier@${BUILDIFIER_VERSION}
 
 FROM owncloudci/alpine:amd64@sha256:d9a8a14fdab854c733d7f7b6270cfd46ce17d39565f0b02228ef599be9b0a15d
 
