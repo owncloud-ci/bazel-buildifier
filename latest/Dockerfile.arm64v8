@@ -5,7 +5,7 @@ ENV BUILDIFIER_VERSION="${BUILD_VERSION:-5.1.0}"
 
 RUN go install github.com/bazelbuild/buildtools/buildifier@${BUILDIFIER_VERSION}
 
-FROM owncloudci/alpine:arm64v8@sha256:d6c1acd5f39fe6183939070118ae413e275802a71ecaa5bbb98dd2b1a62e7939
+FROM owncloudci/alpine:arm64v8@sha256:3f770a3396bc61340096c6116110f5857990fbc686a488c2977e13fb613f5e5a
 
 LABEL maintainer="ownCloud GmbH <devops@owncloud.com>" \
   org.opencontainers.image.title="ownCloud CI Bazel Buildifier" \
