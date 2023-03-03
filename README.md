@@ -14,7 +14,7 @@ ownCloud CI Bazel Buildifier for Starlark linting and formatting
   [owncloud-ci/bazel-buildifier](https://github.com/owncloud-ci/bazel-buildifier/issues)
 
 - **Supported architectures:**\
-  `amd64`, `arm32v7`, `arm64v8`
+  `amd64`, `arm64v8`
 
 ## Docker Tags and respective Dockerfile links
 
