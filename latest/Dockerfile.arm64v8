@@ -1,4 +1,4 @@
-FROM arm64v8/golang:alpine@sha256:78fe86fd14b4806a66f6325e5eb00954baffbb2f233771431dce5191ca13ab08 as build
+FROM arm64v8/golang:alpine@sha256:eeaab088668869c65a2ee0c2c4df7f8c9920140ede7fba3b777cf5b7e9fdbb69 as build
 
 # renovate: datasource=github-releases depName=bazelbuild/buildtools
 ENV BUILDIFIER_VERSION="${BUILD_VERSION:-6.1.0}"
