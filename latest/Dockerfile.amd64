@@ -1,7 +1,7 @@
 FROM golang:alpine@sha256:110b07af87238fbdc5f1df52b00927cf58ce3de358eeeb1854f10a8b5e5e1411 as build
 
 # renovate: datasource=github-releases depName=bazelbuild/buildtools
-ENV BUILDIFIER_VERSION="${BUILD_VERSION:-6.1.0}"
+ENV BUILDIFIER_VERSION="${BUILD_VERSION:-v6.4.0}"
 
 RUN go install github.com/bazelbuild/buildtools/buildifier@${BUILDIFIER_VERSION}
 
