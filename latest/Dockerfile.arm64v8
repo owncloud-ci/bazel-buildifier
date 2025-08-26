@@ -1,7 +1,7 @@
 FROM arm64v8/golang:alpine@sha256:3111024f3a2cf7401ecfe3e3b186e7c723a3569b6611a1d48254054c67288891 as build
 
 # renovate: datasource=github-releases depName=bazelbuild/buildtools
-ENV BUILDIFIER_VERSION="${BUILD_VERSION:-6.1.0}"
+ENV BUILDIFIER_VERSION="${BUILD_VERSION:-v8.2.1}"
 
 RUN go install github.com/bazelbuild/buildtools/buildifier@${BUILDIFIER_VERSION}
 
